@@ -16,13 +16,13 @@ ChatBot::ChatBot()
     _image = nullptr;
     _chatLogic = nullptr;
     _rootNode = nullptr;
-    std::cout << "ChatBot Constructor no memory" << std::endl;
+    // std::cout << "ChatBot Constructor no memory" << std::endl;
 }
 
 // constructor WITH memory allocation
 ChatBot::ChatBot(std::string filename)
 {
-    std::cout << "ChatBot Constructor with memory" << std::endl;
+    std::cout << "ChatBot Constructor" << std::endl;
 
     // invalidate data handles
     _chatLogic = nullptr;
